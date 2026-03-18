@@ -1,3 +1,25 @@
+@use 'hero';
+@use 'contador';
+@use 'sobre';
+@use 'local';
+@use 'confirmaçao';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: red;
+    background: linear-gradient(140deg, #7dae8e, #03354f);
+}
+
+.container {
+    backdrop-filter: blur(8px);
+    background: #fff9;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 10px 30px #00000026;
 }

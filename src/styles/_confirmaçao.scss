@@ -1,0 +1,26 @@
+.confirmaçao {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+button:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 25px #0000004d;
+}
+
+button {
+    cursor: pointer;
+    background: linear-gradient(140deg, #7dae8e, #03354f);
+    border: none;
+    border-radius: 30px;
+    padding: 16px 34px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    transition: transform .25s, box-shadow .25s;
+    box-shadow: 0 5px 15px #0003;
+}
