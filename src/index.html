@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <header class="hero">
@@ -19,32 +20,33 @@
         </p>
     </div>
 </header>
-<section class="contador">
+<section class="contador" data-aos="fade-right">
     <div class="container">
         <h2>Faltam:</h2>
-        <p id="contador">100d 2h 2m 10s</p>
+        <p id="contador"></p>
     </div>
 </section>
 <section class="sobre">
-    <div class="container">
+    <div class="container" data-aos="fade-left">
         <h2>Sobre o evento</h2>
         <p>No dia 12 de Novembro vou comemorar mais um ano de vida! Venha para minha festa. Teremos comida, bebida, musica e muita diversão.</p>
     </div>
 </section>
 <section class="local">
-    <div class="container">
+    <div class="container" data-aos="fade-right">
         <h2>Local</h2>
         <p>📍Recreio dos Bandeirantes - RJ</p>
-        <p>🕖 19h</p>
+        <p>🕖 16h</p>
     </div>
 </section>
 <section class="confirmaçao">
-    <div class="container">
+    <div class="container" data-aos="fade-left">
         <h2>Confirme sua presença</h2>
         <button id="botaoConfirmar">Confirmar presença</button>
     </div>
 </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

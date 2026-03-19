@@ -5,6 +5,16 @@
     font-family: "Pacifico", cursive;
     font-size: 45px;
     color: #1a2a25;
+
+    @media (max-width: 640px) {
+        padding: 40px 0;
+
+        h1 {
+            font-size: 30px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
 }
 
 .hero::before {
